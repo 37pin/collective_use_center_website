@@ -1,0 +1,156 @@
+#content {
+	width: 970px;
+	min-height: 500px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 5px;
+}
+.main-text {
+	margin: 5px;
+	padding: 5px;
+}
+.main-text p {
+	margin: 5px 0px;
+}
+
+.personnel {
+	border-style: solid;
+	border-color: transparent;
+	border-width: 1px;
+	
+	border-spacing: 5px;
+}
+.personnel:hover {
+	border-style: solid;
+	border-color: #F7B722;
+	border-width: 1px;
+}
+.personnel-photo {
+	display: table-cell;
+	vertical-align: top;
+	width: 150px;
+}
+.personnel-photo img {
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+	border: solid 1px #000;
+}
+.personnel-description {
+	display: table-cell;
+	padding: 5px;
+}
+.personnel-description p {
+	margin: 5px 0px;
+}
+
+.contacts-information {
+	width: 450px;
+	float: left;
+	margin: 0px 25px;
+}
+iframe {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000;
+}
+
+form input {
+	margin: 5px;
+	width: 250px;
+	padding: 5px;
+	
+	border: solid 1px #F7B722;
+}
+form input[type="radio"] {
+	width: 15px;
+}
+form input[type="checkbox"] {
+	width: 15px;
+}
+form input[type="button"] {
+	margin: 5px;
+	padding: 5px 15px;
+	width: auto;
+}
+form input[type="submit"] {
+	margin: 5px;
+	padding: 5px 15px;
+	width: auto;
+}
+form p {
+	margin: 5px 0px;
+	padding: 0px;
+	text-align: center;
+}
+form textarea {
+	border: solid 1px #F7B722;
+	margin: 5px;
+	padding: 5px;
+	width: 250px;
+	height: 150px;
+	resize: none;
+}
+form div {
+	text-align: left; 
+	width: 262px; 
+	margin: 5px auto;
+}
+.experience {
+	display: block;
+	position: relative;
+	margin: 5px;
+	list-style-type: none;
+	width: 250px;
+	float: left;
+}
+.experience li {
+	margin: 5px;
+	padding: 5px;
+	padding-bottom: 10px;
+	border-bottom-color: #F7B722;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.experience li:last-child {
+	border-bottom-width: 0px;
+	padding-bottom: 5px;
+}
+
+.main-section {
+	/*border-style: solid;
+	border-width: 1px;
+	border-color: #000;*/
+	margin-left: 265px;
+}
+.user-survey-results {
+	border-style: solid;
+	border-width: 1px;
+	border-color: transparent;
+	
+	margin-bottom: 5px;
+	padding: 5px;
+	width: auto;
+}
+.user-survey-results p {
+	text-align: left;
+}
+.user-survey-results input[type="submit"] {
+	margin-left: 0px;
+}
+.user-survey-results textarea {
+	margin: 0px;
+	width: 681px;
+	text-align: left;
+}
+.user-survey-results:hover {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #F7B722;
+}
+hr {
+	width: auto;
+	height: 2px;
+	background-color: #F7B722;
+	border-width: 0px;
+}

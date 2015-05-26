@@ -1,0 +1,22 @@
+.ui-autocomplete {
+	border: 1px solid #F7B722;
+	font-size: 13.33px;
+	font-family: Arial;
+	width: 257px;
+	background-color: #FFF;
+	padding: 0px;
+}
+.ui-autocomplete ul {
+	margin: 0px;
+}
+.ui-autocomplete li { 
+	list-style-type: none;
+	padding: 5px;
+}
+.ui-menu-item:hover {
+	background-color: #F7B722;
+	cursor: pointer;
+}
+.ui-helper-hidden-accessible {
+	display: none;
+}

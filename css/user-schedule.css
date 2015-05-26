@@ -1,0 +1,43 @@
+#user-schedule {
+	border: solid 1px #000;
+	text-align: left;
+	display: none;
+}
+#currentTime {
+	display: none;
+}
+.day {
+	margin: 0px;
+	margin-bottom: 3px;
+	
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000;
+	
+}
+.day:first-child {
+	border-top-width: 0px;
+}
+.day:last-child {
+	border-bottom-width: 0px;
+	margin-bottom: 0px;
+}
+.day-title {
+	width: 84px;
+	height: 55px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000;
+}
+.day-time {
+	width: auto;
+	height: 55px;
+	margin-left: 86px;
+}
